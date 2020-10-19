@@ -1,0 +1,39 @@
+body {
+    background-color: #a1a1a1;
+    padding: 0px;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin: 0px;
+    padding: 20px;
+    height: 50px;
+}
+
+nav img {
+    display: inline-block;
+    margin-right: 10vw;
+}
+
+nav form {
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    margin: 5px;
+    width: 60vw;
+}
+
+nav input {
+    height: 40px;
+    width: 40vw;
+    background-color: #f3f5f7;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+nav button {
+    height: 40px;
+    width: 10vw;
+    max-width: 200px;
+    margin: 0px;
+}
