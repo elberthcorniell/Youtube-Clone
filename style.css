@@ -37,3 +37,33 @@ nav button {
     max-width: 200px;
     margin: 0px;
 }
+
+.uploadButton {
+    background: url('uploadB.png');
+    vertical-align: top;
+    height: 40px;
+    width: 10vw;
+    max-width: 100px;
+    margin-left:0px;
+    margin-top: 5px;
+    
+}
+
+.signinButton{
+
+    background-color:rgb(22, 122, 198);
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+    height: 40px;
+    width: 10vw;
+    max-width: 100px;
+    margin-left: 1px;
+    margin-top: 5px;
+
+}
+
+.video-container{
+    background-color: #f3f5f7;
+    border: 1px solid rgb(255,0,0);
+
+}
