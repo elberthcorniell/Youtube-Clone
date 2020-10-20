@@ -47,7 +47,7 @@ nav input {
     width: 40vw;
     background-color: white;
     border: 1px solid rgba(0,0,0,0.1);
-    padding: 10px 20px;
+    padding: 0px 20px;
     border-radius: 5px;
 }
 
@@ -167,6 +167,7 @@ br {
 .recomended-video img{
     width: calc(45% - 10px);
     display: inline-block;
+    cursor: pointer;
 }
 
 .recomended-text {
@@ -183,16 +184,8 @@ br {
     text-overflow: ellipsis;
     font-weight: bold;
     margin: 0px;
+    cursor: pointer;
     width: 100%;
-
-}
-
-.recomended-title:hover {
-
-    background-color: green;
-    border-color: black;
-    border-width: 5px;
-
 }
 
 .channel {
