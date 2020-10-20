@@ -94,16 +94,14 @@ nav button .search-button {
 
 }
 .body {
-    width: 80vw;
-    margin: auto;
-    padding: 0px;
-    margin-top: 30px;
+    width: 100vw;
+    padding: 40px;
     flex-direction: row;
 }
 
 .video-container{
-    width: 45vw;
-    height: 25vw;
+    width: calc(65vw - 80px);
+    height: calc(36.5vw - 45px);
 }
 
 .sidebar {
@@ -119,12 +117,11 @@ nav button .search-button {
     display: inline-block;
     width: fit-content;
     vertical-align: top;
-
 }
 
 .legend {
     padding: 20px;
-    width: calc(45vw - 40px)
+    width: calc(65vw - 120px)
 }
 
 .subscribe-button {
@@ -149,9 +146,68 @@ br {
 } 
 
 .action-button {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
     background-color: transparent;
-    color: #a1a1a1;
+    color: gray;
     padding: 0px 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.action-button i{
+    margin-right: 10px;
+}
+
+.recomended-video{
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.recomended-video img{
+    width: calc(45% - 10px);
+    display: inline-block;
+}
+
+.recomended-text {
+    width: 55%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.recomended-strong{
+    line-height: 16px;
+    max-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    margin: 0px;
+    width: 100%;
+}
+
+.channel {
+    width: 100%; 
+    margin-top: 20px;
+    padding-top: 20px; 
+    border-top: 1px solid rgba(0,0,0,0.2);
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.channel button {
+    float: right;
+    display: inline-block;
+}
+
+.channel-widget {
+    width: fit-content;
+    margin: 0px;
+    display: inline-block;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
 }
