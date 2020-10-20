@@ -46,8 +46,8 @@ git clone https://github.com/elberthcorniell/Youtube-Clone.git
 👤 **Author2**
 
 - GitHub: [@MrkarlosM](https://github.com/MrkarlosM)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Twitter: [@MrkarlosM](https://twitter.com/MrkarlosM)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/carlos-mario-martinez-b1768355/)
 
 ## 🤝 Contributing
 
