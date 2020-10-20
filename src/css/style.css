@@ -176,7 +176,7 @@ br {
     vertical-align: top;
 }
 
-.recomended-strong{
+.recomended-title{
     line-height: 16px;
     max-height: 32px;
     overflow: hidden;
@@ -184,6 +184,15 @@ br {
     font-weight: bold;
     margin: 0px;
     width: 100%;
+
+}
+
+.recomended-title:hover {
+
+    background-color: green;
+    border-color: black;
+    border-width: 5px;
+
 }
 
 .channel {
