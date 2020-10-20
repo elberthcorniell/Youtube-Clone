@@ -77,7 +77,7 @@ nav button .search-button {
   max-width: 100px;
   margin-left: 0;
   margin-top: 5px;
-  font-size: 25px;  
+  font-size: 25px;
 }
 
 .signinButton {
@@ -97,7 +97,7 @@ nav button .search-button {
   flex-direction: row;
 }
 
-.video-container{
+.video-container {
   width: calc(65vw - 80px);
   height: calc(36.5vw - 45px);
 }
@@ -135,13 +135,13 @@ br {
 
 .description {
   height: 100px;
-  overflow: hidden;  
+  overflow: hidden;
   transition-duration: 0.3s;
 }
 
 .description:hover {
   height: fit-content;
-} 
+}
 
 .action-button {
   font-size: 16px;
@@ -152,17 +152,17 @@ br {
   font-weight: 400;
 }
 
-.action-button i{
+.action-button i {
   margin-right: 10px;
 }
 
-.recomended-video{
+.recomended-video {
   flex-direction: row;
   width: 100%;
   margin-top: 10px;
 }
 
-.recomended-video img{
+.recomended-video img {
   width: calc(45% - 10px);
   display: inline-block;
   cursor: pointer;
@@ -175,7 +175,7 @@ br {
   vertical-align: top;
 }
 
-.recomended-title{
+.recomended-title {
   line-height: 16px;
   max-height: 32px;
   overflow: hidden;
@@ -187,10 +187,10 @@ br {
 }
 
 .channel {
-  width: 100%; 
+  width: 100%;
   margin-top: 20px;
-  padding-top: 20px; 
-  border-top: 1px solid rgba(0,0,0,0.2);
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
   flex-direction: row;
   margin-bottom: 20px;
 }
