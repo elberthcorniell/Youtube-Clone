@@ -1,8 +1,8 @@
-body {
+    body {
         background-color: #f3f5f7;
         padding: 0;
         font-family: 'Roboto', sans-serif;
-}
+    }
 
 button {
         border-radius: 5px;
@@ -75,7 +75,7 @@ nav button .search-button {
         height: 40px;
         width: 10vw;
         max-width: 100px;
-        margin-left:0px;
+        margin-left: 0;
         margin-top: 5px;
         font-size: 25px;  
 }
@@ -90,6 +90,7 @@ nav button .search-button {
         margin-left: 1px;
         margin-top: 5px;
 }
+
 .body {
         width: 100vw;
         padding: 40px;
