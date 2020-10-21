@@ -26,18 +26,19 @@ nav {
   padding: 20px;
   height: 50px;
   white-space: nowrap;
+  display: flex;
 }
 
 nav img {
-  display: inline-block;
-  margin-right: 10vw;
+  display: flex;
+  width: 170px;
 }
 
 nav form {
-  display: inline-block;
+  display: flex;
   vertical-align: top;
   height: 30px;
-  margin: 5px;
+  margin: auto;
   width: 60vw;
 }
 
@@ -67,17 +68,18 @@ nav button .search-button {
   color: #a1a1a1;
 }
 
-.uploadButton {
+.optionButton {
   background: transparent;
   border: none;
   color: #a1a1a1;
   vertical-align: top;
   height: 40px;
   width: 10vw;
-  max-width: 100px;
+  max-width: 50px;
   margin-left: 0;
   margin-top: 5px;
-  font-size: 25px;  
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .signinButton {
@@ -97,7 +99,7 @@ nav button .search-button {
   flex-direction: row;
 }
 
-.video-container{
+.video-container {
   width: calc(65vw - 80px);
   height: calc(36.5vw - 45px);
 }
@@ -135,13 +137,13 @@ br {
 
 .description {
   height: 100px;
-  overflow: hidden;  
+  overflow: hidden;
   transition-duration: 0.3s;
 }
 
 .description:hover {
   height: fit-content;
-} 
+}
 
 .action-button {
   font-size: 16px;
@@ -152,17 +154,17 @@ br {
   font-weight: 400;
 }
 
-.action-button i{
+.action-button i {
   margin-right: 10px;
 }
 
-.recomended-video{
+.recomended-video {
   flex-direction: row;
   width: 100%;
   margin-top: 10px;
 }
 
-.recomended-video img{
+.recomended-video img {
   width: calc(45% - 10px);
   display: inline-block;
   cursor: pointer;
@@ -175,7 +177,7 @@ br {
   vertical-align: top;
 }
 
-.recomended-title{
+.recomended-title {
   line-height: 16px;
   max-height: 32px;
   overflow: hidden;
@@ -187,17 +189,16 @@ br {
 }
 
 .channel {
-  width: 100%; 
+  width: 100%;
   margin-top: 20px;
-  padding-top: 20px; 
-  border-top: 1px solid rgba(0,0,0,0.2);
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
   flex-direction: row;
   margin-bottom: 20px;
 }
 
 .channel button {
   float: right;
-  display: inline-block;
 }
 
 .channel-widget {
