@@ -66,4 +66,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](/LICENSE.MD) licensed.
+This project is [MIT](https://github.com/elberthcorniell/Youtube-Clone/blob/video-frame/LICENSE.md) licensed.
