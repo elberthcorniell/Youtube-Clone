@@ -37,7 +37,7 @@ nav img {
 nav form {
   display: flex;
   vertical-align: top;
-  height: 30px;
+  height: 40px;
   margin: auto;
   width: 60vw;
 }
@@ -56,6 +56,10 @@ nav button {
   width: 10vw;
   max-width: 200px;
   margin: 0;
+}
+
+.views {
+  display: inline;
 }
 
 nav button .search-button {
@@ -201,10 +205,22 @@ br {
   float: right;
 }
 
+.action-container {
+  float: right;
+}
+
 .channel-widget {
   width: fit-content;
   margin: 0;
   display: inline-block;
+}
+
+.channel-text {
+  display: inline-block;
+}
+
+.channel-text > h3 {
+  margin: 5px 0;
 }
 
 iframe {
