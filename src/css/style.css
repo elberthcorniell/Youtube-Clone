@@ -47,15 +47,20 @@ nav input {
   width: 40vw;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: none;
   padding: 0 20px;
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
 }
 
 nav button {
-  height: 40px;
+  height: 42px;
   width: 10vw;
-  max-width: 200px;
+  max-width: 80px;
   margin: 0;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #f3f5f7;
+  color: #a1a1a1;
 }
 
 .views {
