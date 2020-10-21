@@ -15,7 +15,7 @@ In this project we can see a Navbar, Sidebar and embed video showing just like y
 
 ## Live Demo
 
-![Live_Demo_Link](https://raw.githack.com/elberthcorniell/Youtube-Clone/video-frame/index.html)
+[Live_Demo_Link](https://raw.githack.com/elberthcorniell/Youtube-Clone/video-frame/index.html)
 
 
 ## Getting Started
