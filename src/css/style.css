@@ -1,215 +1,235 @@
 body {
-    background-color: #f3f5f7;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
+  background-color: #f3f5f7;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 button {
-    border-radius: 5px;
-    border: none;
+  border-radius: 5px;
+  border: none;
 }
 
 h2 {
-    font-size: 18px;
-    font-weight: 300;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 h3 {
-    font-size: 16px;
-    color: #a1a1a1;
-    font-weight: 300;
-
+  font-size: 16px;
+  color: #a1a1a1;
+  font-weight: 300;
 }
 
 nav {
-    background-color: white;
-    margin: 0px;
-    padding: 20px;
-    height: 50px;
-    white-space: nowrap;
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+  height: 50px;
+  white-space: nowrap;
+  display: flex;
 }
 
 nav img {
-    display: inline-block;
-    margin-right: 10vw;
+  display: flex;
+  width: 170px;
 }
 
 nav form {
-    display: inline-block;
-    vertical-align: top;
-    height: 30px;
-    margin: 5px;
-    width: 60vw;
+  display: flex;
+  vertical-align: top;
+  height: 40px;
+  margin: auto;
+  width: 60vw;
 }
 
 nav input {
-    height: 40px;
-    width: 40vw;
-    background-color: white;
-    border: 1px solid rgba(0,0,0,0.1);
-    padding: 0px 20px;
-    border-radius: 5px;
+  height: 40px;
+  width: 40vw;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: none;
+  padding: 0 20px;
+  border-radius: 5px 0 0 5px;
 }
 
 nav button {
-    height: 40px;
-    width: 10vw;
-    max-width: 200px;
-    margin: 0px;
+  height: 42px;
+  width: 10vw;
+  max-width: 80px;
+  margin: 0;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #f3f5f7;
+  color: #a1a1a1;
+}
+
+.views {
+  display: inline;
 }
 
 nav button .search-button {
-    height: 40px;
-    width: 10vw;
-    max-width: 200px;
-    margin: 0px;
-    background: transparent;
-    border: none;
-    color: #a1a1a1;
+  height: 40px;
+  width: 10vw;
+  max-width: 200px;
+  margin: 0;
+  background: transparent;
+  border: none;
+  color: #a1a1a1;
 }
 
-.uploadButton {
-    background: transparent;
-    border: none;
-    color: #a1a1a1;
-    vertical-align: top;
-    height: 40px;
-    width: 10vw;
-    max-width: 100px;
-    margin-left:0px;
-    margin-top: 5px;
-    font-size: 25px;  
+.optionButton {
+  background: transparent;
+  border: none;
+  color: #a1a1a1;
+  vertical-align: top;
+  height: 40px;
+  width: 10vw;
+  max-width: 50px;
+  margin-left: 0;
+  margin-top: 5px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
-.signinButton{
-
-    background-color:rgb(22, 122, 198);
-    color: rgb(255, 255, 255);
-    vertical-align: top;
-    height: 40px;
-    width: 10vw;
-    max-width: 100px;
-    margin-left: 1px;
-    margin-top: 5px;
-
+.signinButton {
+  background-color: rgb(22, 122, 198);
+  color: rgb(255, 255, 255);
+  vertical-align: top;
+  height: 40px;
+  width: 10vw;
+  max-width: 100px;
+  margin-left: 1px;
+  margin-top: 5px;
 }
+
 .body {
-    width: 100vw;
-    padding: 40px;
-    flex-direction: row;
+  width: 100vw;
+  padding: 40px;
+  flex-direction: row;
 }
 
-.video-container{
-    width: calc(65vw - 80px);
-    height: calc(36.5vw - 45px);
+.video-container {
+  width: calc(65vw - 80px);
+  height: calc(36.5vw - 45px);
 }
 
 .sidebar {
-    width: calc(35vw - 50px);
-    padding: 20px;
-    background-color: white;
-    display: inline-block;
-    vertical-align: top;
+  width: calc(35vw - 50px);
+  padding: 20px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
 }
 
-.body-container{
-    background-color: white;
-    display: inline-block;
-    width: fit-content;
-    vertical-align: top;
+.body-container {
+  background-color: white;
+  display: inline-block;
+  width: fit-content;
+  vertical-align: top;
 }
 
 .legend {
-    padding: 20px;
-    width: calc(65vw - 120px)
+  padding: 20px;
+  width: calc(65vw - 120px);
 }
 
 .subscribe-button {
-    padding: 15px 40px;
-    background-color: red;
-    color: white;
-    font-weight: bold;
+  padding: 15px 40px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
 }
 
 br {
-    border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .description {
-    height: 100px;
-    overflow: hidden;  
-    transition-duration: 0.3s; 
+  height: 100px;
+  overflow: hidden;
+  transition-duration: 0.3s;
 }
 
 .description:hover {
-    height: fit-content;
-} 
+  height: fit-content;
+}
 
 .action-button {
-    font-size: 16px;
-    background-color: transparent;
-    color: gray;
-    padding: 0px 20px;
-    text-transform: uppercase;
-    font-weight: 400;
+  font-size: 16px;
+  background-color: transparent;
+  color: gray;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
-.action-button i{
-    margin-right: 10px;
+.action-button i {
+  margin-right: 10px;
 }
 
-.recomended-video{
-    flex-direction: row;
-    width: 100%;
-    margin-top: 10px;
+.recomended-video {
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
 }
 
-.recomended-video img{
-    width: calc(45% - 10px);
-    display: inline-block;
-    cursor: pointer;
+.recomended-video img {
+  width: calc(45% - 10px);
+  display: inline-block;
+  cursor: pointer;
 }
 
 .recomended-text {
-    width: 55%;
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: top;
+  width: 55%;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
 }
 
-.recomended-title{
-    line-height: 16px;
-    max-height: 32px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-weight: bold;
-    margin: 0px;
-    cursor: pointer;
-    width: 100%;
+.recomended-title {
+  line-height: 16px;
+  max-height: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  margin: 0;
+  cursor: pointer;
+  width: 100%;
 }
 
 .channel {
-    width: 100%; 
-    margin-top: 20px;
-    padding-top: 20px; 
-    border-top: 1px solid rgba(0,0,0,0.2);
-    flex-direction: row;
-    margin-bottom: 20px;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .channel button {
-    float: right;
-    display: inline-block;
+  float: right;
+}
+
+.action-container {
+  float: right;
 }
 
 .channel-widget {
-    width: fit-content;
-    margin: 0px;
-    display: inline-block;
+  width: fit-content;
+  margin: 0;
+  display: inline-block;
 }
 
-iframe{
-    width: 100%;
-    height: 100%;
-    border: none;
+.channel-text {
+  display: inline-block;
+}
+
+.channel-text > h3 {
+  margin: 5px 0;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
