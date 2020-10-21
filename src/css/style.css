@@ -26,18 +26,19 @@ nav {
   padding: 20px;
   height: 50px;
   white-space: nowrap;
+  display: flex;
 }
 
 nav img {
-  display: inline-block;
-  margin-right: 10vw;
+  display: flex;
+  width: 170px;
 }
 
 nav form {
-  display: inline-block;
+  display: flex;
   vertical-align: top;
   height: 30px;
-  margin: 5px;
+  margin: auto;
   width: 60vw;
 }
 
@@ -67,17 +68,18 @@ nav button .search-button {
   color: #a1a1a1;
 }
 
-.uploadButton {
+.optionButton {
   background: transparent;
   border: none;
   color: #a1a1a1;
   vertical-align: top;
   height: 40px;
   width: 10vw;
-  max-width: 100px;
+  max-width: 50px;
   margin-left: 0;
   margin-top: 5px;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .signinButton {
@@ -197,7 +199,6 @@ br {
 
 .channel button {
   float: right;
-  display: inline-block;
 }
 
 .channel-widget {
