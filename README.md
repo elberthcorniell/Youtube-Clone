@@ -13,6 +13,10 @@ In this project we can see a Navbar, Sidebar and embed video showing just like y
 - HTML
 - CSS
 
+## Live Demo
+
+![Live_Demo_Link](https://raw.githack.com/elberthcorniell/Youtube-Clone/video-frame/index.html)
+
 
 ## Getting Started
 
@@ -53,7 +57,7 @@ git clone https://github.com/elberthcorniell/Youtube-Clone.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/elberthcorniell/Youtube-Clone/issues).
 
 ## Show your support
 
@@ -62,4 +66,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](/LICENSE.MD) licensed.
